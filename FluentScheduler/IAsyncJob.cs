@@ -13,12 +13,12 @@
         /// </summary>
         Task ExecuteAsync();
 
-        /// <summary>
-        /// Executes the job, synchronously.
-        /// </summary>
-        void IJob.Execute()
-        {
-            ExecuteAsync().Wait();
-        }
+        ///// <summary>
+        ///// Executes the job, synchronously.
+        ///// </summary>
+        //void IJob.Execute()
+        //{
+        //    ExecuteAsync().Wait();
+        //}
     }
 }
