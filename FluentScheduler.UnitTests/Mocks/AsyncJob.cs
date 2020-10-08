@@ -11,5 +11,13 @@ namespace FluentScheduler.UnitTests.Mocks
             ++Calls;
             await Task.CompletedTask;
         }
+
+        /// <summary>
+        /// Executes the job, synchronously.
+        /// </summary>
+        void IJob.Execute()
+        {
+            ExecuteAsync().Wait();
+        }
     }
 }
