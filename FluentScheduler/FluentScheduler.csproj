@@ -11,6 +11,7 @@
     <RepositoryUrl>https://github.com/fluentscheduler/FluentScheduler</RepositoryUrl>
     <TargetFrameworks>netstandard2.0;netstandard2.1;net48</TargetFrameworks>
     <Version>5.5.0</Version>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
